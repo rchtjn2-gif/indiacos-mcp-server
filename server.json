@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.indiacos/mcp",
+  "title": "IndiaCos",
+  "description": "Indian company, LLP, GST, PAN, director and court-case records for KYB, due diligence and leads",
+  "version": "2.0.0",
+  "websiteUrl": "https://indiacos.com/api",
+  "repository": {
+    "url": "https://github.com/rchtjn2-gif/indiacos-mcp-server",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/rchtjn2-gif/indiacos-mcp-server/main/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://indiacos.com/mcp"
+    }
+  ]
+}
