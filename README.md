@@ -74,10 +74,10 @@ OAuth 2.1: sign in with your IndiaCos account when your client asks. Or send an 
 ## Tools (13)
 | Group | Tools |
 |---|---|
-| Search and lists | `search`,  find (plain-English, `e.g. 'solar EPC companies in Pune')` |
+| Search and lists | `search`, `find` (plain-English requests such as solar EPC companies in Pune) |
 | Lookups | `get_gst`, `get_company`, `get_company_directors`, `get_pan`, `get_director`, `get_office` |
 | Risk | `get_cases` |
-| Contacts | get_contact (keys with contact access) |
+| Contacts | `get_contact` (keys with contact access) |
 | Wallet | `get_wallet`, `top_up_wallet`, `get_payment` |
 
 ## Example prompts
